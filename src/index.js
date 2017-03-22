@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Hello from './App';
 import './index.css';
 
 ReactDOM.render(
-  <h1>Hey there, world.</h1>,
+  <Hello name="Tulara" />,
   document.getElementById('root')
 );
